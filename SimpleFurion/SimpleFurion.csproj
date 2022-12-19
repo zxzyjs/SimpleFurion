@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFrameworks>net7.0;net6.0</TargetFrameworks>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Description>基于Furion框架的拓展</Description>
+		<PackageProjectUrl>https://www.cnblogs.com/huguodong/p/16992525.html</PackageProjectUrl>
+		<Author>胡国东</Author>
+		<VersionPrefix>4.8.37</VersionPrefix>
+		<Version>$(VersionPrefix).0</Version>
+		<FileVersion>$(Version)</FileVersion>
+		<AssemblyVersion>$(VersionPrefix).*</AssemblyVersion>
+		<Deterministic>false</Deterministic>
+		<OutputPath>..\Bin</OutputPath>
+		<GenerateDocumentationFile>True</GenerateDocumentationFile>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<LangVersion>latest</LangVersion>
+		<Authors>$(Author)</Authors>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Furion.Pure" Version="4.8.3.7" />
+	</ItemGroup>
+
+</Project>
