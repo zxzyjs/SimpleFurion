@@ -25,7 +25,7 @@ namespace SimpleFurion.Component
                          var stringBuilder = new StringBuilder();
                          stringBuilder.AppendLine("【日志级别】：" + logMsg.LogLevel);
                          stringBuilder.AppendLine("【日志类名】：" + logMsg.LogName);
-                         stringBuilder.AppendLine("【日志时间】：" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss(zzz) dddd"));
+                         stringBuilder.AppendLine("【日志时间】：" + DateTime.Now.ToString("yyyy-MM-dd hh:mm:ss dddd"));
                          stringBuilder.AppendLine("【日志内容】：" + logMsg.Message);
                          if (logMsg.Exception != null)
                          {
